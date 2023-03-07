@@ -271,6 +271,18 @@
                 </li>
             </ul>
         </div>
+            <form class="form-footer">
+                <label for="email-footer">
+                    <h2 class="emai-footer-title"> Subscribe to the newsletter</h2>
+                    <input class="footer-email-input" type="email" id="email-footer" name="email-footer" placeholder="E-mail">
+                </label>
+                <button class="footer-btn" type="submit">
+                    <p class="footer-btn-text">Subscribe</p> 
+                    <svg class="footer-btn-svg" width="24px" height="24px">
+                        <use href="./images/icons/sprite.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
     </div>
     </footer>
     <div class="backdrop is-hidden data-modal" data-modal>
@@ -278,6 +290,43 @@
           <button class="data-modal-close " data-modal-close>
             <svg class="close-modal" width="18px" height="18px"><use href="./images/icons/sprite.svg#close-modal" ></use></svg>
           </button>
+          <form class="form">
+            <p class="form-title">Leave your information and we'll call you back</p>
+            <label for="name" class="input-title">Name</label>
+            <div class="form-input-container">  
+                <input class="form-input" type="text" id="name" name="name">
+                <svg class="input-modal-svg" width="18px" height="18px">
+                    <use href="./images/icons/sprite.svg#person-black"></use>
+                </svg>
+            </div>
+
+            <label for="tel" class="input-title">Telephone</label>
+            <div class="form-input-container">
+                <input class="form-input"  type="tel" id="tel" name="tel-nomer">
+                <svg class="input-modal-svg" width="18px" height="18px">
+                    <use href="./images/icons/sprite.svg#phone-black"></use>
+                </svg>
+            </div>
+
+            <label for="email" class="input-title">E-mail</label>
+            <div class="form-input-container">
+                <input class="form-input" type="email" id="email" name="email">
+                <svg class="input-modal-svg" width="18px" height="18px">
+                    <use href="./images/icons/sprite.svg#email-black"></use>
+                </svg>
+            </div>
+            <label for="Comments" class="input-title">Comments</label>
+            <textarea class="form-input form-textarea" rows="8" id="Comments" placeholder="Enter the text"></textarea>
+
+            <div class="checkbox-container">
+                <input class="checkbox-input" type="checkbox" id="checkbox-backdrop" name="checkbox-backdrop">
+                <label class="checkbox-text" for="checkbox-backdrop">
+                    <span class="custom-checkbox" for="checkbox-backdrop"></span>
+                    I agree with the letter and accept the<a class="checkbox-text-link" href="#">Terms and Conditions</a>
+                </label>
+            </div>
+            <button class="form-btn" type="submit">Send</button>
+          </form>
         </div>
     </div>
         <script src="./js/modal.js"></script>
