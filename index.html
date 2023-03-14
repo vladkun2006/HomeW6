@@ -241,49 +241,50 @@
         </section>
     </main>
     <footer class="footer">
-    <div class="container container-footer">
-        <div class="address-container">
-            <div class="logo-footer-container">
-                <a class="logo" href="./">Web<span class="logo-footer">Studio</span></a>
+        <div class="container container-footer">
+            <div class="address-container">
+                <div class="logo-footer-container">
+                    <a class="logo" href="./">Web<span class="logo-footer">Studio</span></a>
+                </div>
+                <address>
+                    <ul class="contact-info">
+                        <li class="contact-info-items"> <a class="adress" href="https://www.google.com.ua/maps/place/695+Park+Ave,+New+York,+NY+10065,+%D0%A1%D0%A8%D0%90/@40.7688994,-73.9672143,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256?hl=ru">695 Park Ave, NY 10065, USA</a></li>
+                        <li class="contact-info-items"> <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com </a></li>                                 
+                        <li class="contact-info-items"> <a class="footer-contacts" href="tel:+12127724150">+1 212-772-4150</a> </li> 
+                    </ul>
+                </address>
             </div>
-            <address>
-                <ul class="contact-info">
-                    <li class="contact-info-items"> <a class="adress" href="https://www.google.com.ua/maps/place/695+Park+Ave,+New+York,+NY+10065,+%D0%A1%D0%A8%D0%90/@40.7688994,-73.9672143,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256?hl=ru">695 Park Ave, NY 10065, USA</a></li>
-                    <li class="contact-info-items"> <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com </a></li>                                 
-                    <li class="contact-info-items"> <a class="footer-contacts" href="tel:+12127724150">+1 212-772-4150</a> </li> 
+            <div class="social-footer">
+                <h2 class="social-footer-title">Find us on</h2>
+                <ul class="social-footer-list">
+                    <li class="social-footer-item">
+                        <a class="social-footer-link" href="//www.instagram.com"><svg class="instagram" width="20" height="20"><use href="./images/icons/sprite.svg#instagram"></use></svg></a>
+                    </li>
+                    <li class="social-footer-item">
+                        <a class="social-footer-link" href="//twitter.com"><svg class="twitter" width="20" height="20"><use href="./images/icons/sprite.svg#twitter"></use></svg></a>
+                    </li>
+                    <li class="social-footer-item">
+                        <a class="social-footer-link" href="//www.facebook.com"><svg class="facebook" width="20" height="20"><use href="./images/icons/sprite.svg#facebook"></use></svg></a>
+                    </li>
+                    <li class="social-footer-item">
+                        <a class="social-footer-link" href="//www.linkedin.com"><svg class="linkedin" width="20" height="20"><use href="./images/icons/sprite.svg#linkedin"></use></svg></a>
+                    </li>
                 </ul>
-            </address>
-        </div>
-        <div class="social-footer">
-            <h2 class="social-footer-title">Find us on</h2>
-            <ul class="social-footer-list">
-                <li class="social-footer-item">
-                    <a class="social-footer-link" href="//www.instagram.com"><svg class="instagram" width="20" height="20"><use href="./images/icons/sprite.svg#instagram"></use></svg></a>
-                </li>
-                <li class="social-footer-item">
-                    <a class="social-footer-link" href="//twitter.com"><svg class="twitter" width="20" height="20"><use href="./images/icons/sprite.svg#twitter"></use></svg></a>
-                </li>
-                <li class="social-footer-item">
-                    <a class="social-footer-link" href="//www.facebook.com"><svg class="facebook" width="20" height="20"><use href="./images/icons/sprite.svg#facebook"></use></svg></a>
-                </li>
-                <li class="social-footer-item">
-                    <a class="social-footer-link" href="//www.linkedin.com"><svg class="linkedin" width="20" height="20"><use href="./images/icons/sprite.svg#linkedin"></use></svg></a>
-                </li>
-            </ul>
-        </div>
+            </div>
             <form class="form-footer">
-                <label for="email-footer">
-                    <h2 class="emai-footer-title"> Subscribe to the newsletter</h2>
-                    <input class="footer-email-input" type="email" id="email-footer" name="email-footer" placeholder="E-mail">
-                </label>
+              <div>
+              <h2 class="emai-footer-title"> Subscribe to the newsletter</h2>
+              <div class="form-footer-container">
+                <input class="footer-email-input" type="email" id="email-footer" name="email-footer" placeholder="E-mail">
                 <button class="footer-btn" type="submit">
-                    <p class="footer-btn-text">Subscribe</p> 
-                    <svg class="footer-btn-svg" width="24px" height="24px">
-                        <use href="./images/icons/sprite.svg#icon-send"></use>
-                    </svg>
+                  <p class="footer-btn-text">Subscribe</p> 
+                  <svg class="footer-btn-svg" width="24px" height="24px">
+                    <use href="./images/icons/sprite.svg#icon-send"></use>
+                  </svg>
                 </button>
+              </div>
             </form>
-    </div>
+        </div>
     </footer>
     <div class="backdrop is-hidden data-modal" data-modal>
         <div class="modal"> 
@@ -299,7 +300,7 @@
                     <use href="./images/icons/sprite.svg#person-black"></use>
                 </svg>
             </div>
-
+            
             <label for="tel" class="input-title">Telephone</label>
             <div class="form-input-container">
                 <input class="form-input"  type="tel" id="tel" name="tel-nomer">
@@ -319,9 +320,9 @@
             <textarea class="form-input form-textarea" rows="8" id="Comments" placeholder="Enter the text"></textarea>
 
             <div class="checkbox-container">
-                <input class="checkbox-input" type="checkbox" id="checkbox-backdrop" name="checkbox-backdrop">
-                <label class="checkbox-text" for="checkbox-backdrop">
-                    <span class="custom-checkbox" for="checkbox-backdrop"></span>
+                <label class="checkbox-text">
+                    <input class="checkbox-input" type="checkbox"name="checkbox-backdrop">
+                    <span class="custom-checkbox"></span>
                     I agree with the letter and accept the<a class="checkbox-text-link" href="#">Terms and Conditions</a>
                 </label>
             </div>
